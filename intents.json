@@ -1,0 +1,179 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+        {
+      "tag": "Symptoms",
+      "patterns": [
+        "Tell me some medicines",
+        "suggest me some medication"
+      ],
+      "responses": [
+        "What kind of symptoms you are facing",
+        "Tell me some of your symptoms"
+      ]
+    },
+    {
+      "tag": "Diarrhea",
+      "patterns": [
+        "Diarrhea"
+
+      ],
+      "responses": [
+        "Lomotil Doasge - 2 tablets or 10 mL (5 mg of diphenoxylate), orally, 4 times a day or Florastor Doasge - One capsule orally two times daily."
+
+      ]
+
+    },
+    {
+      "tag": "Muscle Pain ",
+      "patterns": [
+        "Muscle Pain"
+
+      ],
+      "responses": [
+        "Diclofenac Dosage - 50 mg orally 3 times a day or Asprin Dosage - 2.4-3.6 g/day "
+
+      ]
+
+    },
+    {
+      "tag": "Dry Cough",
+      "patterns": [
+        "Dry Cough", " coughing"
+
+      ],
+      "responses": [
+        "Benzonate Dosage - 100 mg to 200 mg orally three times a day as needed for cough or Benadryl Dosage - 1 or 2 tablets every 12 hours. Do not exceed 4 tablets in 24 hours."
+
+      ]
+
+    },
+    {
+      "tag": "Abdominal pain",
+      "patterns": [
+        "gas" ,"abdominal pain"
+
+      ],
+      "responses": [
+        "Antacid Dosage - Take this medication by mouth, usually after meals and at bedtime as needed or Doslax Dosage - Take 1 tablet after food , twice a day"
+
+      ]
+
+    },
+    {
+      "tag": "vomiting",
+      "patterns": [
+        "vomiting"
+
+      ],
+      "responses": [
+        "Buscopan 10mg Dosage - 0.2 to 0.4mg per day orally or you can also have Doxinate Dosage - Take 2 tablets in bedtime"
+
+      ]
+
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "fever"
+
+      ],
+      "responses": [
+        "If your age is below 25 then take paracetamol twice a day\nIf your age is above 25 take Anaprox 550 , taken only once daily."
+
+      ]
+
+    },
+    {
+      "tag": "cold",
+      "patterns": [
+        "cold"
+
+      ],
+      "responses": [
+        "Benadryl allergy plus congestion Dosage for adults and children 12 years and over Take 1 tablet every 4 hours"
+
+      ]
+
+    }
+  ]
+}
